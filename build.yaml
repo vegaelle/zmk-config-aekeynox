@@ -131,3 +131,10 @@ include:
     artifact-name: glove80_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+
+  # Hummingbird and friends (on RP2040)
+  - board: xiao_rp2040//zmk
+    shield: hummingbird
+    artifact_name: hummingbird_wired
+    snippet: studio-rpc-usb-uart
+    cmake_args: -DCONFIG_ZMK_STUDIO=y
